@@ -1,0 +1,123 @@
+body {
+    background-image: url('backgroun.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column; /* Added flex-direction */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.logo img {
+    width: 30%;
+    align-items: center;
+    padding-left:50px; /* Decreased width of the logo */
+}
+
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 42%;
+    font-family: fantasy;
+    color:#993333;
+}
+
+.login-form {
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    flex-direction: row; /* Changed flex-direction to row */
+    width: 70%; /* Adjusted width */
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
+    margin-top: 150px; /* Added margin-top to make space for the header */
+}
+
+.form-container {
+    flex: 4; /* 4 parts out of 7 */
+    padding: 0 150px;
+    border-right: 2px solid #ccc; /* Added border to the right */
+    text-align: center; /* Align text to the right */
+}
+
+.quote-container {
+    flex: 3; /* 3 parts out of 7 */
+    padding: 0 40px;
+    margin-right: 40px; /* Added margin-right for spacing */
+}
+
+.quote {
+    font-size: 24px;
+    font-style: italic;
+    font-family: fantasy;
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+.author {
+    text-align: left;
+}
+.form-title {
+    margin-right: 30px;
+
+}
+
+.form-group {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-left:30px;
+}
+
+.form-group input {
+    width: 50%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-group button {
+    background-color: rgb(214, 54, 29);
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0px;
+    margin-left:130px;
+}
+
+.form-group button:hover {
+    background-color: #0069d9;
+}
+.form-group .register-button{
+    margin-right:50px;
+}
+
+.register-button:hover {
+    background-color: #0069d9;
+}
+</style>

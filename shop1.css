@@ -1,0 +1,111 @@
+<style>
+body { 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #813737;
+}
+
+header {
+    width: 100%;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(30, 14, 45, 0.8);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.title {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 42%;
+    font-family: fantasy;
+    color:#993333;
+}
+.logo img {
+    width: 30%;
+    align-items: center;
+    padding-left:50px; /* Decreased width of the logo */
+}
+
+.container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.search-container {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top:30px;
+}
+.search-container input[type=text] {
+    padding: 8px;
+    width: 50%;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.menu-bar {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu-bar button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 5px;
+}
+.menu-bar button:hover {
+    background-color: #0056b3;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.item {
+    width: calc(33.33% - 20px);
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
+    background-color: #c9c1c1;
+}
+.item img {
+    max-width: 40%;
+    margin-bottom: 10px;
+    margin-left:120px;
+}
+.item h3 {
+    margin-top: 0;
+    margin-left:170px;
+    color: #333;
+}
+.item p {
+    margin-bottom: 10px;
+    margin-left:120px;
+    color: #090a0a;
+}
+.item button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:20px;
+}
+.item button:hover {
+    background-color: #0056b3;
+}
+</style>

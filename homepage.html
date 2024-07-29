@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>E-Bay Shopping Website</title>
+    <link rel="stylesheet" href="homepage.css"> 
+    <style>
+        /* CSS for styling the register link as a button */
+        .register-button {
+            display: inline-block;
+            padding: 10px 10px;
+            background-color: rgb(214, 54, 29);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; 
+            margin-left:10px;/* Remove underline from hyperlink */
+        }
+
+        .register-button:hover {
+            background-color: #0056b3;
+        }
+        .form-group a{
+            padding-top:7px;
+            margin-bottom: 2px;
+        }
+    </style>     
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Logo" style="width: 80px;">
+        </div>
+        <div class="title">E-BAY Shopping</div>
+    </header>
+
+    <div class="login-form">
+        <div class="quote-container">
+            <div class="quote">
+                "Whoever said money cannot buy happiness simply didn't know where to shop"
+            </div>
+            <div class="author">
+                - Gertrude Stein
+            </div>
+        </div>
+        <div class="form-container">
+            <h2 class="form-title">Welcome to E-Bay</h2>
+            <form >
+                <div class="form-group">
+                    <label for="username">Username</label>
+                    <input type="text" id="username" name="username">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
+                </div>
+                <div class="form-group">
+                    <button type="submit" class="login_button">Login</button>
+                    <a href="registration.html" class="register-button">Register</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
